@@ -3,15 +3,15 @@
         {
             "name": "gcc-arm-none-eabi",
             "includePath": [
-                "${workspaceFolder}/logue-sdk/platform/prologue/inc",
+                "${workspaceFolder}/../logue-sdk/platform/nutekt-digital/inc",
                 "${workspaceFolder}/eurorack",
                 "${workspaceFolder}/eurorack/stmlib/third_party/STM",
                 "${workspaceFolder}/eurorack/stmlib/third_party/STM/CMSIS/CM3_f4xx",
                 "${workspaceFolder}/eurorack/stmlib/third_party/STM/STM32F4xx_StdPeriph_Driver/inc",
-                "${workspaceFolder}/logue-sdk/platform/prologue/inc",
-                "${workspaceFolder}/logue-sdk/platform/prologue/inc/dsp",
-                "${workspaceFolder}/logue-sdk/platform/prologue/inc/utils",
-                "${workspaceFolder}/logue-sdk/platform/ext/CMSIS/CMSIS/Include"
+                "${workspaceFolder}/../logue-sdk/platform/nutekt-digital/inc",
+                "${workspaceFolder}/../logue-sdk/platform/nutekt-digital/inc/dsp",
+                "${workspaceFolder}/../logue-sdk/platform/nutekt-digital/inc/utils",
+                "${workspaceFolder}/../ext/CMSIS/CMSIS/Include"
             ],
             "defines": [
                 "STM32F401xC",
@@ -23,7 +23,7 @@
                 "OSC_VA",
                 "OSCILLATOR_TYPE=va"
             ],
-            "compilerPath": "${workspaceFolder}/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/arm-none-eabi-gcc",
+            "compilerPath": "${workspaceFolder}/../logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/arm-none-eabi-gcc",
             "cStandard": "c11",
             "cppStandard": "c++11",
             "intelliSenseMode": "gcc-x64"
